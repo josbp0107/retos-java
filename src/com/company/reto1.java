@@ -44,8 +44,8 @@ public class reto1 {
             System.out.println("NA");
             System.out.println("NA");
         }else {
-            System.out.println(df.format(classification.get(0)).replace(".", ","));
-            System.out.println(df.format(classification.get(classification.size() - 1)).replace(".", ","));
+            System.out.println(df.format(classification.get(0)));
+            System.out.println(df.format(classification.get(classification.size() - 1)));
         }
     }
 }
